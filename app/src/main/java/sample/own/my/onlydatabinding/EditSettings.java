@@ -64,8 +64,7 @@ public class EditSettings extends AppCompatActivity {
 
                 } else {
 
-//                    myrecy.setVisibility(View.VISIBLE);
-//                    findViewById(R.id.rowsingle).setVisibility(View.GONE);
+
                     myrecy.setVisibility(View.VISIBLE);
                     findViewById(R.id.rowsingle).setVisibility(View.GONE);
 
@@ -112,6 +111,15 @@ public class EditSettings extends AppCompatActivity {
 
         myadapter = new AdapterDaysTime(this);
         myrecy.setAdapter(myadapter);
+
+    }
+
+
+
+    public  void  showno()
+    {
+
+        System.out.println("ihihi");
 
     }
 }
