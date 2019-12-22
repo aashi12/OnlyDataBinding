@@ -76,6 +76,7 @@ public class EditSettings extends AppCompatActivity {
                 {
                     myrecy.setVisibility(View.GONE);
                     findViewById(R.id.rowsingle).setVisibility(View.VISIBLE);
+                    //findViewById(R.id.rowsingle).setVisibility(View.VISIBLE);
 
 
                 }
@@ -114,7 +115,6 @@ public class EditSettings extends AppCompatActivity {
                      if(day.getIsselcted())
                      myfinaldata.add(day);
                  }
-
 
              }
          });
